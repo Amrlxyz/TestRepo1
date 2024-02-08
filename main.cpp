@@ -12,3 +12,5 @@ int main() {
 }
 
 reset
+
+adding new main feature for the buggy
