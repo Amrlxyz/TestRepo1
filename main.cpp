@@ -14,3 +14,9 @@ int main() {
 reset
 
 adding new main feature for the buggy
+
+bluetooth feature implementing
+
+local commit test
+
+bluetooth feature completed
