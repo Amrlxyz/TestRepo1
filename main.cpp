@@ -29,7 +29,4 @@ whaht is heppeneninng
 
 twotimes amend
 
-
-stupid shiet
-
 somtehign important
