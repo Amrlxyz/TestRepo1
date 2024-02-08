@@ -16,3 +16,5 @@ reset
 bluetooth feature implementing
 
 local commit test
+
+bluetooth feature completed
