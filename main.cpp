@@ -11,13 +11,4 @@ int main() {
     }
 }
 
-first code
-
-second code on a second branch?
-
-bruh chages and stuff;
-what thie fuck
-
-feature on the branch commit
-
-feature done
+reset
