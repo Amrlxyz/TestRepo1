@@ -20,3 +20,6 @@ bluetooth feature implementing
 local commit test
 
 bluetooth feature completed
+
+
+making few changes here n there
