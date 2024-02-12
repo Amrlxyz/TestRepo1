@@ -11,6 +11,11 @@ int main() {
     }
 }
 
+void blueetoh(void);
+
+
+
+
 reset
 
 adding new main feature for the buggy
