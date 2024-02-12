@@ -1,27 +1,35 @@
 #include "mbed.h"
 
-DigitalOut myled(LED1);
+// set up the HM10 Serial connection
+Serial hm10(PA_11, PA_12); //TX, RX
+Serial pc(USBTX, USBRX);
 
-int main() {
-    while(1) {
-        myled = 1;
-        wait(0.2);
-        myled = 0;
-        wait(0.2);
+
+
+
+int main()
+{
+    // char buffer[20];
+    int counter = 0;
+    pc.baud(9600);
+    hm10.baud(9600); //make sure the baud rate is 9600
+    while (!hm10.writeable()) {}
+
+    while(1) 
+    {
+        // counter++;
+        // pc.printf("%d \n", counter);
+        
+        // if(hm10.readable())
+        // {  
+        //     pc.putc(hm10.getc());
+        // }
+
+        while(pc.readable())
+        {  
+            pc.putc(pc.getc());        
+        }
+
+        wait(0.01);
     }
 }
-
-reset
-
-adding new main feature for the buggy
-
-bluetooth feature implementing
-
-local commit test
-
-bluetooth feature completed
-
-test unauthorised in bluetooth branch
-
-
-test making local change lmao and then checkout to another branch
